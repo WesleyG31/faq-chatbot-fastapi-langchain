@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
 
 # 📌 TOKEN DEL BOT (reemplázalo con el tuyo)
-TELEGRAM_BOT_TOKEN = "7793437559:AAGXqTazpGquwmxFtCGrot6WSZdBMw9WYsU"
+TELEGRAM_BOT_TOKEN = "token"
 
 # 📌 URL de nuestra API en FastAPI (asegúrate de que FastAPI esté corriendo en este puerto)
 API_URL = "http://127.0.0.1:8000/ask"
