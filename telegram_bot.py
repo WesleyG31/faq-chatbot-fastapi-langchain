@@ -3,12 +3,15 @@ import logging
 import requests
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
+import os
+
 
 # 📌 TOKEN DEL BOT (reemplázalo con el tuyo)
-TELEGRAM_BOT_TOKEN = "token"
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+
 
 # 📌 URL de nuestra API en FastAPI (asegúrate de que FastAPI esté corriendo en este puerto)
-API_URL = "http://127.0.0.1:8000/ask"
+API_URL = os.getenv("API_URL")
 
 # 📌 Configurar logs
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
