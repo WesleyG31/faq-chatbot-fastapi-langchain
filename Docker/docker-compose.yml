@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: ./api
+    container_name: faq_api
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+    depends_on:
+      - chromadb
+
+  bot:
+    build:
+      context: ./bot
+    container_name: telegram_bot
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - API_URL=http://api:8000/ask
+    depends_on:
+      - api
+
+  chromadb:
+    image: chromadb/chromadb:latest
+    container_name: chromadb
+    volumes:
+      - chromadb_data:/data
+
+volumes:
+  chromadb_data:

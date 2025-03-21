@@ -1,0 +1,11 @@
+fastapi 
+uvicorn 
+pydantic 
+langchain 
+langchain_experimental 
+langchain_huggingface 
+langchain_ollama 
+chromadb 
+langchain_community
+langchain-openai
+python-dotenv
