@@ -8,7 +8,8 @@ An intelligent chatbot designed to answer frequently asked questions (FAQs) rela
 📽️ [YouTube](https://youtu.be/lyczfYr9RmE)
 
 
-[![](https://markdown-videos.deta.dev/youtube/lyczfYr9RmE)](https://youtu.be/lyczfYr9RmE)
+https://github.com/user-attachments/assets/8e2ebe1c-625c-41f1-b721-f99e6812410a
+
 
 ## 📌 Table of Contents
 
