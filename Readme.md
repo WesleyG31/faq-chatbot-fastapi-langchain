@@ -7,6 +7,9 @@ An intelligent chatbot designed to answer frequently asked questions (FAQs) rela
 
 📽️ [YouTube](https://youtu.be/lyczfYr9RmE)
 
+
+[![](https://markdown-videos.deta.dev/youtube/lyczfYr9RmE)](https://youtu.be/lyczfYr9RmE)
+
 ## 📌 Table of Contents
 
 - [Features](#features)
