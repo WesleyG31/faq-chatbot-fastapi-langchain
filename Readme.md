@@ -2,6 +2,11 @@
 
 An intelligent chatbot designed to answer frequently asked questions (FAQs) related to e-commerce using LLM, FastAPI, LangChain, HuggingFace, ChromaDB, Embedding models, Openrouter, Telegram, Render, Railway.
 
+
+## 📌 Demo
+
+📽️ [YouTube](https://youtu.be/lyczfYr9RmE)
+
 ## 📌 Table of Contents
 
 - [Features](#features)
